@@ -1,17 +1,20 @@
 {
   "name": "handpose",
   "version": "0.1.0",
+  "homepage": "https://signlanguagetranslator.000webhostapp.com/",
   "private": true,
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.1.0",
-    "@tensorflow/tfjs": "^2.4.0",
+    "@tensorflow/tfjs": "^3.6.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "fingerpose": "0.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
+    "react-native-web": "^0.16.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
     "react-webcam": "^5.2.0"
   },
   "scripts": {
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "html-loader": "^2.1.2"
   }
 }

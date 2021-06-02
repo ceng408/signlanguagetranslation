@@ -1,38 +1,56 @@
-.App {
+.Table {
+  background-image: url("./arkaplan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  line-height: 750%;
+}
+.Table_M {
+  background-color: black;
+  width: 100%;
+  line-height: 750%;
+}
+
+.th_hosgeldiniz {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.th_logo {
+  text-align: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.th_gif {
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-1 {
+  border: none;
+  color: black;
+  background-color: #c09060;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid#c09060;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  font-size: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-1:hover {
+  color: #000000;
+  background-color: #fff;
+  border: 2px solid #000000;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buton {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid#000000;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  font-size: 30px;
+}
+.buton:hover {
+  color: black;
+  background-color: #c09060;
+  border: 2px solid #000000;
 }
