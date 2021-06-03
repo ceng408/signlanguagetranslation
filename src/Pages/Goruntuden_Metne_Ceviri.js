@@ -51,7 +51,7 @@ function App() {
 
       // 4. TODO - Make Detections
       const img = tf.browser.fromPixels(video)
-      const resized = tf.image.resizeBilinear(img, [640,480])
+      const resized = tf.image.resizeBilinear(img, [580,420])
       const casted = resized.cast('int32')
       const expanded = casted.expandDims(0)
       const obj = await net.executeAsync(expanded)
@@ -64,7 +64,7 @@ function App() {
       // Draw mesh
       try {
         const ctx = canvasRef.current.getContext("2d")
-        requestAnimationFrame(()=>{drawRect(boxes[0], classes[0], scores[0], 0.85, videoWidth, videoHeight, ctx)}); 
+        requestAnimationFrame(()=>{drawRect(boxes[0], classes[0], scores[0], 0.80, videoWidth, videoHeight, ctx)}); 
       }
       catch(err) {
       }
@@ -86,7 +86,7 @@ function App() {
 
   return (
 
-    <div style={{ backgroundColor:"black",height:1000,width:1485 }}>
+    <div  className="Table_M">
        <Link to="/"><img  src={require('./images/Logo.png').default} alt="logo" /> </Link>
        <h1 style={{color:"white",textAlign:"center"}}>Görüntüden Metne Çeviri</h1>
       <hi>
@@ -102,8 +102,8 @@ function App() {
             right: 0,
             textAlign: "center",
             zindex: 9,
-            width: 640,
-            height: 480,
+            width: 580,
+            height: 420,
           }}
         />
 
@@ -117,8 +117,8 @@ function App() {
             right: 0,
             textAlign: "center",
             zindex: 8,
-            width: 640,
-            height: 480,
+            width: 580,
+            height: 420,
           }}
         />
       {/* </header> */}

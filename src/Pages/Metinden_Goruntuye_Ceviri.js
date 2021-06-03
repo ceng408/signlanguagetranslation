@@ -16,10 +16,8 @@ export default class Metinden_Goruntuye_Ceviri extends Component {
 
     event.preventDefault();
     var N1='/'+this.state.metin+'.gif';
-
+    N1.toLowerCase();
     this.setState({imge:N1});
-
-   //return N1;
   }
   render(){
 
@@ -28,7 +26,7 @@ export default class Metinden_Goruntuye_Ceviri extends Component {
     return ( 
       
       <View>
-      <div style={{ backgroundColor:"black",height:705,width:1500 }}>
+      <div className="Table_M">
         
           <Link to="/"><img  src={require('./images/Logo.png').default} alt="logo" /> </Link>
           <h1 style={{color:"white",textAlign:"center"}}>Metinden Görüntüye Çeviri</h1>
@@ -43,7 +41,7 @@ export default class Metinden_Goruntuye_Ceviri extends Component {
                    <label>
                    <TextInput style = {styles.button}type="text" onChange={e=>this.setState({metin:e.target.value})}  />
                    </label>
-                   <button className="btn-1" type="submit" onClick={this.Show}>Çevir</button>
+                   <button className="btn-3" type="submit" onClick={this.Show}>Çevir</button>
                    </form> 
    
                </th>

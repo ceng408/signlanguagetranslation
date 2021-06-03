@@ -2,7 +2,7 @@
 const labelMap = {
     1: {'name':'Güzel', color:'red'},
     2: {'name':'Evet', color:'yellow'},
-    3: {'name':'Sıkılmak', color:'gray'},
+    3: {'name':'Sıkılmak', color:'pink'},
     4: {'name':'Cevap', color:'blue'},
     5: {'name':'Seni Seviyorum', color:'purple'},
     6: {'name':'Bayan', color:'orange'},
