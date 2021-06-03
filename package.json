@@ -1,7 +1,7 @@
 {
   "name": "handpose",
   "version": "0.1.0",
-  "homepage": "https://signlanguagetranslator.000webhostapp.com/",
+  "homepage": "https://ceng408.github.io/signlanguagetranslation",
   "private": true,
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.1.0",
@@ -10,6 +10,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "fingerpose": "0.0.2",
+    "gh-pages": "^3.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native-web": "^0.16.3",
@@ -18,6 +19,8 @@
     "react-webcam": "^5.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,6 +1,7 @@
 import React from "react";
 import {Link } from "react-router-dom";
-
+import logo from './Pages/images/Logo.png';
+import hosgeldiniz from './Pages/images/hosgeldiniz.png';
 import './App.css';
 function App() {
   return (
@@ -10,10 +11,10 @@ function App() {
       <table className="Table" >
         <thead >
         <tr>
-          <th className="th_logo"><Link to="/"><img  src="/images/Logo.png" alt="logo" /> </Link></th>
+          <th className="th_logo"><Link to="/"><img src={logo} alt="Logo" /></Link></th>
         </tr>
         <tr>
-          <th className="th_hosgeldiniz"><img  src="/images/hosgeldiniz.png" alt="logo" /></th>
+          <th className="th_hosgeldiniz"><img  src={hosgeldiniz} alt="logo" /></th>
         </tr>
         <tr>
           <th><Link to="/page3"><button className="btn-1">Metinden Görüntüye Çeviri </button> </Link></th>
@@ -25,5 +26,6 @@ function App() {
     </table>
   </div>
   );
+  
 }
 export default App;

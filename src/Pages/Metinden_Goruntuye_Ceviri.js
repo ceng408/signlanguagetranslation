@@ -3,20 +3,19 @@ import {Link } from "react-router-dom";
 
 import {View,TextInput,StyleSheet } from 'react-native'
 
-
 export default class Metinden_Goruntuye_Ceviri extends Component {
 
   
   constructor(props)
   {
     super(props);
-    this.state={metin:'/images/baslangıc.png',imge:'/images/baslangıc.png'};
+    this.state={metin:'/baslangıc.png',imge:'/baslangıc.png'};
   }
   Show=(event)=>
   {
 
     event.preventDefault();
-    var N1="/images/"+this.state.metin+".gif";
+    var N1='/'+this.state.metin+'.gif';
 
     this.setState({imge:N1});
 
@@ -30,12 +29,13 @@ export default class Metinden_Goruntuye_Ceviri extends Component {
       
       <View>
       <div style={{ backgroundColor:"black",height:705,width:1500 }}>
-          <Link to="/"><img  src="/images/Logo.png" alt="logo" /> </Link>
+        
+          <Link to="/"><img  src={require('./images/Logo.png').default} alt="logo" /> </Link>
           <h1 style={{color:"white",textAlign:"center"}}>Metinden Görüntüye Çeviri</h1>
           <table className="Table_M" >
            <thead >
            <tr>
-             <th className="th_gif"><img  src={x} alt="gif" /></th>
+             <th className="th_gif"><img  src={process.env.PUBLIC_URL +x} alt="gif" /></th>
            </tr>
            <tr>
              <th>  

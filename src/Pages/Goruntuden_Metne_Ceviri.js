@@ -87,7 +87,7 @@ function App() {
   return (
 
     <div style={{ backgroundColor:"black",height:1000,width:1485 }}>
-       <Link to="/"><img  src="/images/Logo.png" alt="logo" /> </Link>
+       <Link to="/"><img  src={require('./images/Logo.png').default} alt="logo" /> </Link>
        <h1 style={{color:"white",textAlign:"center"}}>Görüntüden Metne Çeviri</h1>
       <hi>
         {/* <header className="App-header"> */}
