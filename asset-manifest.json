@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/signlanguagetranslation/static/css/main.4fcfdf70.chunk.css",
-    "main.js": "/signlanguagetranslation/static/js/main.7f189fe4.chunk.js",
-    "main.js.map": "/signlanguagetranslation/static/js/main.7f189fe4.chunk.js.map",
+    "main.js": "/signlanguagetranslation/static/js/main.7e95a5c5.chunk.js",
+    "main.js.map": "/signlanguagetranslation/static/js/main.7e95a5c5.chunk.js.map",
     "runtime-main.js": "/signlanguagetranslation/static/js/runtime-main.aa4ad2e4.js",
     "runtime-main.js.map": "/signlanguagetranslation/static/js/runtime-main.aa4ad2e4.js.map",
-    "static/js/2.c805882d.chunk.js": "/signlanguagetranslation/static/js/2.c805882d.chunk.js",
-    "static/js/2.c805882d.chunk.js.map": "/signlanguagetranslation/static/js/2.c805882d.chunk.js.map",
+    "static/js/2.3cc34233.chunk.js": "/signlanguagetranslation/static/js/2.3cc34233.chunk.js",
+    "static/js/2.3cc34233.chunk.js.map": "/signlanguagetranslation/static/js/2.3cc34233.chunk.js.map",
     "index.html": "/signlanguagetranslation/index.html",
     "static/css/main.4fcfdf70.chunk.css.map": "/signlanguagetranslation/static/css/main.4fcfdf70.chunk.css.map",
-    "static/js/2.c805882d.chunk.js.LICENSE.txt": "/signlanguagetranslation/static/js/2.c805882d.chunk.js.LICENSE.txt",
+    "static/js/2.3cc34233.chunk.js.LICENSE.txt": "/signlanguagetranslation/static/js/2.3cc34233.chunk.js.LICENSE.txt",
+    "static/media/Logo.png": "/signlanguagetranslation/static/media/Logo.024f8559.png",
     "static/media/App.css": "/signlanguagetranslation/static/media/arkaplan.bb91a5ae.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aa4ad2e4.js",
-    "static/js/2.c805882d.chunk.js",
+    "static/js/2.3cc34233.chunk.js",
     "static/css/main.4fcfdf70.chunk.css",
-    "static/js/main.7f189fe4.chunk.js"
+    "static/js/main.7e95a5c5.chunk.js"
   ]
 }
