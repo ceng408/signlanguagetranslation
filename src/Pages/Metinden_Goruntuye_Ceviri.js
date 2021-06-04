@@ -16,7 +16,7 @@ export default class Metinden_Goruntuye_Ceviri extends Component {
 
     event.preventDefault();
     var N1='/'+this.state.metin+'.gif';
-    N1.toLowerCase();
+    N1=N1.toLowerCase();
     this.setState({imge:N1});
   }
   render(){
