@@ -1,0 +1,112 @@
+.Table {
+  background-image: url("./arkaplan.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 111vh; 
+  width: 99vw;
+  background-position: center; 
+}
+
+
+.Table_M {
+  background-color: black;
+  width: 100vw;
+  height: 160vh; 
+}
+.Table_m {
+  background-color: black;
+  width: 100vw;
+}
+.Table_m2 {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vh;
+  height: 100vh; 
+  background-position: center; 
+}
+
+.th_hosgeldiniz {
+  text-align:left;
+}
+.th_logo {
+  text-align: left;
+}
+.th_gif {
+  text-align: center;
+}
+.btn-1 {
+  border: none;
+  color: black;
+  background-color: #c09060;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid#c09060;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  font-size: 30px;
+  text-align: end;
+}
+.btn-1:hover {
+  color: #000000;
+  background-color: #fff;
+  border: 2px solid #000000;
+  text-align: end;
+}
+.buton {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid#000000;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  font-size: 30px;
+  text-align: end;
+  margin-left:50%;
+}
+.buton:hover {
+  color: black;
+  background-color: #c09060;
+  border: 2px solid #000000;
+  text-align: end;
+  margin-left:50%;
+  
+}
+.buton2 {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid#000000;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  font-size: 30px;
+}
+.buton2:hover {
+  color: black;
+  background-color: #c09060;
+  border: 2px solid #000000;  
+}
+.btn-3 {
+  border: none;
+  color: black;
+  background-color: #c09060;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid#c09060;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  font-size: 30px;
+}
+.btn-3:hover {
+  color: #000000;
+  background-color: #fff;
+  border: 2px solid #000000;
+}
