@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/signlanguagetranslation/static/css/main.eb0a361d.chunk.css",
-    "main.js": "/signlanguagetranslation/static/js/main.00f8efb2.chunk.js",
-    "main.js.map": "/signlanguagetranslation/static/js/main.00f8efb2.chunk.js.map",
+    "main.js": "/signlanguagetranslation/static/js/main.f32be0d0.chunk.js",
+    "main.js.map": "/signlanguagetranslation/static/js/main.f32be0d0.chunk.js.map",
     "runtime-main.js": "/signlanguagetranslation/static/js/runtime-main.aa4ad2e4.js",
     "runtime-main.js.map": "/signlanguagetranslation/static/js/runtime-main.aa4ad2e4.js.map",
     "static/js/2.9a2e5291.chunk.js": "/signlanguagetranslation/static/js/2.9a2e5291.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.aa4ad2e4.js",
     "static/js/2.9a2e5291.chunk.js",
     "static/css/main.eb0a361d.chunk.css",
-    "static/js/main.00f8efb2.chunk.js"
+    "static/js/main.f32be0d0.chunk.js"
   ]
 }
